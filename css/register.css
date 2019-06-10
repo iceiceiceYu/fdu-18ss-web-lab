@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #1b2838;
+    color: #acb2b8
+}
+
+header {
+    color: #b8b6b4;
+    height: 10%;
+    background-color: #171a21;
+    display: flex;
+}
+
+nav {
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+a {
+    color: #b8b6b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #87bff2;
+}
+
+nav li a {
+    color: #b8b6b4;
+}
+
+h1 {
+    margin: 0.6em 0 0.6em 2.4em;
+    font-weight: bold;
+    font-size: 0.85cm;
+}
+
+section {
+    margin: 0 5%;
+}
+
+section p {
+    margin-bottom: 1em;
+}
+
+input, textarea {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 35%;
+    background-color: #171a21;
+    border: #56707f solid 1px;
+    border-radius: 3px;
+    color: #acb2b8
+}
+
+select {
+    background-color: #171a21;
+    border: #56707f solid 1px;
+    color: #acb2b8
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 2em;
+}
+
+input[type="submit"] {
+    margin-top: 2em;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: #56707f;
+    border: #171a21 solid 1px;
+    width: 4em;
+}
+
+input[type="button"], input[type="submit"], input[type="checkbox"], input[type="radio"], select:hover {
+    cursor: pointer;
+}
+
+textarea {
+    height: 15em;
+}

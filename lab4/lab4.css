@@ -1,0 +1,55 @@
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+div#topHeaderRow {
+    font-size: 0.9em;
+}
+
+#topHeaderRow nav ul {
+    margin: 16px;
+    padding-left: 20px;
+}
+
+.price {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.similarTitle {
+}
+
+.cartText span {
+    color: orange;
+}
+
+footer {
+    margin-top: 1em;
+    background-color: #E7E7E7;
+
+}
+
+.tight-form-group {
+}
+
+#copyrightRow {
+    height: 45px;
+    margin-top: 10px;
+    color: #999999;
+    background-color: #3A3A3A;
+}
+
+#copyrightRow p {
+    padding: 13px 0 0 100px;
+}
+
+#copyrightRow p span {
+    padding-right: 100px;
+}
+
+.active {
+    padding-left: 10px;
+}
